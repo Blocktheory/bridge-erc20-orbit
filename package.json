@@ -1,0 +1,21 @@
+{
+  "name": "arbitrum-tutorials",
+  "version": "1.0.0",
+  "description": "The Arbitrum Tutorials Monorepo",
+  "author": "Offchain Labs, Inc.",
+  "license": "Apache-2.0",
+  "private": "true",
+  "engines": {
+    "node": ">= 8.0.0 < 19.0.0",
+    "npm": "^6.0.0",
+    "yarn": "^1.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2"
+  }
+}
